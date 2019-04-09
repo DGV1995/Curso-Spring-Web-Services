@@ -15,8 +15,9 @@ public class BooksController {
 		//return Arrays.asList(new Book(1l, "Mastering Spring 5.0", "In28Minutes"));
 		Book book1 = new Book(1234, "La voz de las espadas", "Joe Abercrombie");
 		Book book2 = new Book(5678, "Juego de tronos", "George RR Martin");
+		Book book3 = new Book(98183198, "Medio hombre", "Joe Abercrombie");
 		
-		return Arrays.asList(book1, book2);
+		return Arrays.asList(book1, book2, book3);
 	}
 	
 
