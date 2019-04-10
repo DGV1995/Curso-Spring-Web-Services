@@ -4,6 +4,8 @@ import java.net.URI;
 import java.util.Date;
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.http.ResponseEntity.BodyBuilder;
@@ -37,7 +39,7 @@ public class UserResource {
 	}
 	
 	@PostMapping("/post")
-	public ResponseEntity<Object> addUser(@RequestBody User user) {
+	public ResponseEntity<Object> addUser(@Valid @RequestBody User user) {
 		
 		User savedUser = userDaoService.save(user);
 		
