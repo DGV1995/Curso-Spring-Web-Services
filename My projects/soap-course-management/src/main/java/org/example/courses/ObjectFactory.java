@@ -2,7 +2,7 @@
 // Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.2.7 
 // Visite <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
-// Generado el: 2019.04.09 a las 04:00:44 PM CEST 
+// Generado el: 2019.04.10 a las 10:41:22 AM CEST 
 //
 
 
@@ -37,22 +37,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link GetAllCourseDetailsResponse }
-     * 
-     */
-    public GetAllCourseDetailsResponse createGetAllCourseDetailsResponse() {
-        return new GetAllCourseDetailsResponse();
-    }
-
-    /**
-     * Create an instance of {@link CourseDetails }
-     * 
-     */
-    public CourseDetails createCourseDetails() {
-        return new CourseDetails();
-    }
-
-    /**
      * Create an instance of {@link GetCourseDetailsRequest }
      * 
      */
@@ -66,6 +50,14 @@ public class ObjectFactory {
      */
     public GetCourseDetailsResponse createGetCourseDetailsResponse() {
         return new GetCourseDetailsResponse();
+    }
+
+    /**
+     * Create an instance of {@link CourseDetails }
+     * 
+     */
+    public CourseDetails createCourseDetails() {
+        return new CourseDetails();
     }
 
 }

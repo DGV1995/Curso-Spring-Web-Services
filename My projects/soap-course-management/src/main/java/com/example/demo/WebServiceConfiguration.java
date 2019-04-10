@@ -35,7 +35,7 @@ public class WebServiceConfiguration {
 	// /ws/courses.wsdl
 	// course-details.xsd
 	
-	@Bean(name="courses")
+	@Bean(name = "courses")
 	public DefaultWsdl11Definition defaultWsdl11Definition(XsdSchema coursesSchema) {
 		
 		DefaultWsdl11Definition definition = new DefaultWsdl11Definition();
