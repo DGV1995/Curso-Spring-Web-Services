@@ -9,7 +9,7 @@ import javax.persistence.Id;
 public class User {
 	
 	@Id
-	@GeneratedValue
+	@GeneratedValue // --> Will be generated automatically
 	private long id;
 	private String name;
 	private String role;
